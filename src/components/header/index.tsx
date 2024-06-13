@@ -1,9 +1,13 @@
 import styles from './header.module.css'
+import logo from '../../assets/bitcoin.png'
+import { Link } from 'react-router-dom'
 
 export function Header(){
     return(
         <header className={styles.container}>
-            <h1>Header</h1>
+            <Link to="/">
+                <img src={logo} alt="Logo cripto" />
+            </Link>
         </header>
     )
 }
