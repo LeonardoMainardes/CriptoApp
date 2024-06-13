@@ -1,0 +1,17 @@
+*{
+    margin: 0 14px;
+    padding: 0 14px;
+}
+
+div{
+    text-align: center;
+}
+
+.not{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    gap: 14px;
+}
