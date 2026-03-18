@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+# 📈 CriptoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para consulta de criptomoedas em tempo real, com listagem de preços, variações e detalhes de cada ativo diretamente de uma API pública.
 
-Currently, two official plugins are available:
+🔗 **[Ver demo ao vivo](https://cripto-app-eosin.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Listagem de criptomoedas com preços atualizados em tempo real
+- Visualização de variação percentual (24h)
+- Busca e filtragem de ativos
+- Página de detalhes individual por criptomoeda
+- Interface responsiva para mobile e desktop
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠️ Tecnologias utilizadas
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+- **React** — biblioteca para construção da interface
+- **TypeScript** — tipagem estática para maior segurança no código
+- **Vite** — bundler rápido para desenvolvimento e build
+- **API REST** — consumo de dados de criptomoedas em tempo real
+
+---
+
+## 🚀 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/LeonardoMainardes/CriptoApp.git
+
+# Acesse a pasta
+cd CriptoApp
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Acesse `http://localhost:5173` no navegador.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas da aplicação
+├── services/       # Integração com a API
+└── types/          # Tipagens TypeScript
+```
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **[Leonardo Mainardes](https://github.com/LeonardoMainardes)**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardomainardes)
